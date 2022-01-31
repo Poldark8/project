@@ -12,7 +12,6 @@ import {ReactSVG} from "react-svg";
 
 const Product: React.FC<IProducts> = (props) => {
     const {products} = props;
-    console.log(products)
     return (
         <Layout metaData={{title: products.title, description: products.description}}>
             <div className='h-screen flex mx-10 justify-center items-center xsm:mx-0'>
