@@ -19,10 +19,10 @@ const Product: React.FC<IProducts> = (props) => {
                     <div className='w-60 bg-gradient-to-b from-lightGreen to-darkGreen rounded-l-lg relative
                       xsm:w-full xsm:h-60 xsm:rounded-none '>
                         <div className='flex items-center h-full -ml-4  xsm:hidden'>
-                            <Image className='shadow-primaryShadow' src={products.image} width={150} height={200}/>
+                            <Image alt='product-image' className='shadow-primaryShadow' src={products.image} width={150} height={200}/>
                         </div>
                         <div className='flex items-center h-full -ml-4 justify-center  xsmGrater:hidden'>
-                            <Image className='shadow-primaryShadow' src={products.image} width={80} height={80}/>
+                            <Image alt='product-image' className='shadow-primaryShadow' src={products.image} width={80} height={80}/>
                         </div>
 
                         <div className='flex justify-center w-full absolute bottom-4 gap-1.5'>
