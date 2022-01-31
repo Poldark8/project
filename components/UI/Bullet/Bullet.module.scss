@@ -1,0 +1,6 @@
+.bullet{
+  @apply w-2 h-2 bg-darkerGreen z-20 rounded-full;
+}
+.active{
+  @apply bg-white;
+}

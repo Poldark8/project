@@ -1,0 +1,4 @@
+.button {
+  @apply rounded-lg border-0 bg-gradient-to-b flex gap-1.5 items-center from-lightOrange to-darkOrange
+  text-white font-bold py-3.5 px-5 shadow-primaryShadow;
+}
